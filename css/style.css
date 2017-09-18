@@ -1,0 +1,171 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background:url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.website-title
+{
+	background-color: #2D2B2B;
+	color:white;
+	font-family: monospace;
+	font-size: 2.8em;
+	text-align: center;
+	padding:40px;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+.form-wrapper
+{
+	width:250px;
+	margin:0 auto;
+	margin-top: 5%;
+}
+
+input.input-area
+{
+	padding:4px;
+	border:none;
+	margin:3px;
+	border-bottom:1px solid grey;
+	background-color: transparent;
+}
+.submit
+{
+	border:none;
+	cursor: pointer;
+	border:skyblue;
+	background-color: white;
+	padding:8px;
+	font-size: 12px;
+	text-transform: capitalize;
+	color:black;
+	border-radius: 2px;
+	margin-top: 5px;
+	margin-left: 2px;
+	text-align: center;
+}
+.input-area:focus 
+{
+    background-color: #dcdcdc;
+	border:none;
+	outline:none;
+	border-bottom:1px solid green;
+	padding:5px;
+}
+.new-user
+{
+	text-align: center;
+}
+.container
+{
+	max-width: 90%;
+	max-height: 100%;
+	margin-left: 4%;
+	margin-right: 4%;
+	box-shadow: 1px 1px 10px 1px lightgrey;
+
+}
+.row
+{
+	margin-bottom: 2%;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 6px;
+}
+.col-4
+{
+	width:32%;
+	margin:0.3%;
+	display: inline-block;
+	border-right:1px solid #dcdcdc;
+}
+.col-4:nth-child(3)
+{
+	border-right:none;
+}
+.image-wrapper
+{
+	height:250px;
+}
+.image-wrapper a
+{
+	text-decoration: none;
+	color:white;
+}
+.list-image
+{
+	height: 100%;
+	width:100%;
+}
+.product-title
+{
+	text-align: center;
+	margin-bottom:5px;
+}
+.table-image
+{
+	height:135px;
+}
+table
+{
+	border-collapse: collapse;
+	margin:0 auto;
+	margin-top:10px;
+	color:white;
+}
+td
+{
+	padding:5px;
+	text-align: center;
+}
+.product-heading > td
+{
+	font-weight: bold;
+}
+.related-images, .related-videos
+{
+	text-align: center;
+	padding:10px;
+	font-size: 1.7em;
+	font-family: cursive;
+	font-weight: bold;
+	color: maroon;
+	border-bottom:1px solid #dcdcdc;
+	color:white;
+}
+.embed-video
+{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top:3%;
+	margin-bottom:3%;
+	padding-bottom:3%;
+}
+footer
+{
+	text-align: center;
+	color:grey;
+	margin-top:10%;
+	margin-bottom: 2%
+}
+ul
+{
+	list-style: none;
+}
+ul a
+{
+	text-decoration: none;
+}
+ul a li
+{
+	display:inline-block;
+	background-color: white;
+	color: black;
+	padding:9px;
+	margin:0 8px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px 1px skyblue;
+}
