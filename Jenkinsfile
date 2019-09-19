@@ -1,4 +1,4 @@
-Jenkinsfile (test pipeline)
+//Jenkinsfile (test pipeline)
 
 pipeline {
     agent any
