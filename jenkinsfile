@@ -1,6 +1,4 @@
 
-Jenkinsfile (test pipeline)
-
 pipeline {
     agent any
 
